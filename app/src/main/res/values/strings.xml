@@ -1,0 +1,11 @@
+<resources>
+    //Global Resources
+    <string name="app_name">Treasurer</string>
+
+    //Starter page
+    <string name="welcome">Welcome</string>
+    <string name="title_activity_select_project">select_project</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

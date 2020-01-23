@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Select_project">
+
+    <FrameLayout
+        android:id="@+id/select_project_Frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_new_project"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="@dimen/FAB_from_next"
+            android:layout_marginRight="@dimen/FAB_from_next"
+            android:adjustViewBounds="false"
+            android:baselineAlignBottom="false"
+            android:clickable="true"
+            android:cropToPadding="true"
+            android:focusable="true"
+            android:foregroundGravity="bottom|right"
+            android:padding="@dimen/FAB_from_next"
+            android:paddingLeft="@dimen/FAB_from_next"
+            android:paddingTop="@dimen/FAB_from_next"
+            android:paddingEnd="@dimen/FAB_from_next"
+            android:paddingRight="@dimen/FAB_from_next"
+            android:paddingBottom="@dimen/FAB_from_next"
+            android:src="@mipmap/img_add_foreground"
+            android:visibility="visible"
+            app:backgroundTint="@color/colorPrimary"
+            app:fabSize="auto"
+            app:useCompatPadding="true"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="1dp" />
+
+        <ListView
+            android:id="@+id/select_project_list"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:focusable="auto"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="1dp">
+
+        </ListView>
+    </FrameLayout>
+
+</LinearLayout>
