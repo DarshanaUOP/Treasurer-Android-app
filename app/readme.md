@@ -1,6 +1,6 @@
-### Treasurer-android-app
+## Treasurer-android-app
 
-## DESCRIPTION
+### DESCRIPTION
 This is the second edition of money manager android app.
 
-## OVERVIEW
+### OVERVIEW
